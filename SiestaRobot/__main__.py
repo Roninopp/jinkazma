@@ -81,28 +81,28 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-*Hello {} !*
-✪ I'm an anime-theme management bot [✨](https://telegra.ph/file/b8fe73c5ad42d10d63f7b.jpg)
+*𝙷𝙴𝙻𝙻𝙾  {} !*
+✪ 𝙸'𝙼 𝙰𝙽 𝙰𝙽𝙸𝙼𝙴 𝚃𝙷𝙴𝙼𝙴 𝙼𝙰𝙽𝙰𝙶𝙴𝙼𝙴𝙽𝚃 𝙱𝙾𝚃 [✨](https://te.legra.ph/file/fc82c0ca3978c217c48c9.jpg)
 ────────────────────────
-× *Uptime:* `{}`
-× `{}` *users, across* `{}` *chats.*
+× *𝚄𝙿𝚃𝙸𝙼𝙴 ✘* `{}`
+× `{}` *𝚄𝚂𝙴𝚁𝚂, 𝙰𝙲𝚁𝙾𝚂𝚂* `{}` *𝙲𝙷𝙰𝚃𝚂*
 ────────────────────────
-✪ Hit /help to see my available commands.
+✪ 𝙷𝙸𝚃 𝙷𝙴𝙻𝙿 𝚃𝙾 𝚂𝙴𝙴 𝙼𝚈 𝙰𝚅𝙰𝙸𝙻𝙰𝙱𝙻𝙴 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂
 """
 
 buttons = [
     [
-        InlineKeyboardButton(text="About Siesta Robot", callback_data="siesta_"),
+        InlineKeyboardButton(text="ᴀʙᴏᴜᴛ ᴠᴇɴᴏᴍ ʀᴏʙᴏᴛ", callback_data="siesta_"),
     ],
     [
-        InlineKeyboardButton(text="Get Help", callback_data="help_back"),
+        InlineKeyboardButton(text="ʜᴇʟᴘ", callback_data="help_back"),
         InlineKeyboardButton(
-            text="Try inline!​​", switch_inline_query_current_chat=""
+            text="ɪɴʟɪɴᴇ​​", switch_inline_query_current_chat=""
         ),
     ],
     [
         InlineKeyboardButton(
-            text="➗ Add Siesta To Your Group ➗", url="t.me/Siestaxbot?startgroup=new"),
+            text="ᴀᴅᴅ ᴠᴇɴᴏᴍ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ", url="t.me/GOD_VENOM_ROBOT?startgroup=new"),
     ],
 ]
 
@@ -110,12 +110,9 @@ buttons = [
 HELP_STRINGS = """
 Click on the button bellow to get description about specifics command."""
 
-EMI_IMG = "https://telegra.ph/file/b8fe73c5ad42d10d63f7b.jpg"
+EMI_IMG = "https://te.legra.ph/file/fc82c0ca3978c217c48c9.jpg"
 
-DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project by contacting @saint_foire \
- Supporting isnt always financial! \
- Those who cannot provide monetary support are welcome to help us develop the bot at ."""
+DONATE_STRING = """ʜᴏɪɪ ᴍᴇ [ʀᴏʏᴀʟ ᴋɪɴɢ](https://t.me/BHAGAT_MAHAKAL_KA)"""
 
 IMPORTED = {}
 MIGRATEABLE = []
