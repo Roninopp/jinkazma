@@ -357,7 +357,7 @@ def siesta_about_callback(update, context):
     query = update.callback_query
     if query.data == "siesta_":
         query.message.edit_text(
-            text="[๏](https://te.legra.ph/file/fc82c0ca3978c217c48c9.jpg) 𝙸'𝙼 *𝚅𝙴𝙽𝙾𝙼*, 𝙰 𝙿𝙾𝚆𝙴𝚁𝙵𝚄𝙻𝙻 𝙶𝚁𝙾𝚄𝙿 𝙼𝙰𝙽𝙰𝙶𝙴𝙼𝙴𝙽𝚃 𝙱𝙾𝚃 𝙱𝚄𝙸𝙻𝚃 𝚃𝙾 𝙷𝙴𝙻𝙿 𝚈𝙾𝚄 𝙼𝙰𝙽𝙰𝙶𝙴 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 𝙴𝙰𝚂𝙸𝙻𝚈"
+            text="๏ 𝙸'𝙼 *𝚅𝙴𝙽𝙾𝙼*, 𝙰 𝙿𝙾𝚆𝙴𝚁𝙵𝚄𝙻𝙻 𝙶𝚁𝙾𝚄𝙿 𝙼𝙰𝙽𝙰𝙶𝙴𝙼𝙴𝙽𝚃 𝙱𝙾𝚃 𝙱𝚄𝙸𝙻𝚃 𝚃𝙾 𝙷𝙴𝙻𝙿 𝚈𝙾𝚄 𝙼𝙰𝙽𝙰𝙶𝙴 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 𝙴𝙰𝚂𝙸𝙻𝚈"
             "\n• 𝙸 𝙲𝙰𝙽 𝚁𝙴𝚂𝚃𝚁𝙸𝙲𝚃 𝚄𝚂𝙴𝚁𝚂"
             "\n• 𝙸 𝙲𝙰𝙽 𝙶𝚁𝙴𝙴𝚃 𝚄𝚂𝙴𝚁𝚂 𝚆𝙸𝚃𝙷 𝙲𝚄𝚂𝚃𝙾𝙼𝙸𝚉𝙰𝙱𝙻𝙴 𝚆𝙴𝙻𝙲𝙾𝙼𝙴 𝙼𝙴𝚂𝚂𝙰𝙶𝙴𝚂 𝙰𝙽𝙳 𝙴𝚅𝙴𝙽 𝚂𝙴𝚃 𝙰 𝙶𝚁𝙾𝚄𝙿'𝚂 𝚁𝚄𝙻𝙴𝚂"
             "\n• 𝙸 𝙷𝙰𝚅𝙴 𝙰𝙽 𝙰𝙳𝚅𝙰𝙽𝙲𝙴𝙳 𝙰𝙽𝚃𝙸 𝙵𝙻𝙾𝙾𝙳 𝚂𝚈𝚂𝚃𝙴𝙼"
@@ -371,18 +371,18 @@ def siesta_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Admins", callback_data="siesta_admin"),
-                    InlineKeyboardButton(text="Notes", callback_data="siesta_notes"),
+                    InlineKeyboardButton(text="ᴀᴅᴍɪɴs", callback_data="siesta_admin"),
+                    InlineKeyboardButton(text="ɴᴏᴛᴇs", callback_data="siesta_notes"),
                  ],
                  [
-                    InlineKeyboardButton(text="Support", callback_data="siesta_support"),
-                    InlineKeyboardButton(text="Credits", callback_data="siesta_credit"),
+                    InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", callback_data="siesta_support"),
+                    InlineKeyboardButton(text="ᴄʀᴇᴅɪᴛs", callback_data="siesta_credit"),
                  ],
                  [
-                    InlineKeyboardButton(text="Source Code", url="https://github.com/shiinobu/SiestaRobot"),
+                    InlineKeyboardButton(text="ᴏᴡɴᴇʀ", url="https://t.me/BHAGAT_MAHAKAL_KA"),
                  ],
                  [
-                    InlineKeyboardButton(text="Go Back", callback_data="siesta_back"),
+                    InlineKeyboardButton(text="ɢᴏ ʙᴀᴄᴋ", callback_data="siesta_back"),
                  ]
                 ]
             ),
@@ -405,7 +405,7 @@ def siesta_about_callback(update, context):
     elif query.data == "siesta_admin":
         query.message.edit_text(
             text=f"*๏ Let's make your group bit effective now*"
-            "\nCongragulations, Siesta Robot now ready to manage your group."
+            "\nCongragulations, Venom Robot now ready to manage your group."
             "\n\n*Admin Tools*"
             "\nBasic Admin tools help you to protect and powerup your group."
             "\nYou can ban members, Kick members, Promote someone as admin through commands of bot."
@@ -427,22 +427,22 @@ def siesta_about_callback(update, context):
             f"\n\nYou can also set buttons for notes and filters (refer help menu)",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="Go Back", callback_data="siesta_")]]
+                [[InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="siesta_")]]
             ),
         )
     elif query.data == "siesta_support":
         query.message.edit_text(
-            text="*๏ Siesta support chats*"
+            text="*๏ ᴠᴇɴᴏᴍ sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛs*"
             "\nJoin My Support Group/Channel for see or report a problem on Siesta.",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Support", url="t.me/machinaxupport"),
-                    InlineKeyboardButton(text="Updates", url="https://t.me/machinaxupdate"),
+                    InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url="https://t.me/DARKAMANSUPPORT"),
+                    InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇs", url="https://t.me/DARKAMANCHANNEL"),
                  ],
                  [
-                    InlineKeyboardButton(text="Go Back", callback_data="siesta_"),
+                    InlineKeyboardButton(text="ɢᴏ ʙᴀᴄᴋ", callback_data="siesta_"),
                  
                  ]
                 ]
@@ -458,15 +458,15 @@ def siesta_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Vain", url="https://github.com/shiinobu"),
-                    InlineKeyboardButton(text="Sena-Ex", url="https://github.com/kennedy-ex"),
+                    InlineKeyboardButton(text="ᴠᴀɪɴ", url="https://github.com/shiinobu"),
+                    InlineKeyboardButton(text="sᴇɴᴀ-ᴇx", url="https://github.com/kennedy-ex"),
                  ],
                  [
-                    InlineKeyboardButton(text="Paul Larsen", url="https://github.com/PaulSonOfLars"),
-                    InlineKeyboardButton(text="TheHamkerCat", url="https://github.com/TheHamkerCat"),
+                    InlineKeyboardButton(text="ᴘᴀᴜʟ ʟᴀʀsᴇɴ", url="https://github.com/PaulSonOfLars"),
+                    InlineKeyboardButton(text="ᴛʜᴇ ʜᴀᴍᴋᴇʀ ᴄᴀᴛ", url="https://github.com/TheHamkerCat"),
                  ],
                  [
-                    InlineKeyboardButton(text="Go Back", callback_data="siesta_"),
+                    InlineKeyboardButton(text="ɢᴏ ʙᴀᴄᴋ", callback_data="siesta_"),
                  ]
                 ]
             ),
@@ -492,7 +492,7 @@ def Source_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Go Back", callback_data="siesta_")
+                    InlineKeyboardButton(text="ɢᴏ ʙᴀᴄᴋ", callback_data="siesta_")
                  ]
                 ]
             ),
