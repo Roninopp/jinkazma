@@ -92,7 +92,7 @@ PM_START_TEXT = """
 
 buttons = [
     [
-        InlineKeyboardButton(text="ᴀʙᴏᴜᴛ ᴠᴇɴᴏᴍ ʀᴏʙᴏᴛ", callback_data="siesta_"),
+        InlineKeyboardButton(text="ᴀʙᴏᴜᴛ ᴀᴠɪᴠᴇᴋ sᴀᴍᴜʀᴀɪ", callback_data="siesta_"),
     ],
     [
         InlineKeyboardButton(text="ʜᴇʟᴘ", callback_data="help_back"),
@@ -102,17 +102,17 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="ᴀᴅᴅ ᴠᴇɴᴏᴍ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ", url="t.me/GOD_VENOM_ROBOT?startgroup=new"),
+            text="ᴀᴅᴅ ᴀᴠɪᴠᴇᴋ sᴀᴍᴜʀᴀɪ", url="t.me/FANTASTICFIGHTERBOT?startgroup=new"),
     ],
 ]
 
 
 HELP_STRINGS = """
-✪ [𝙲𝙻𝙸𝙲𝙺](https://te.legra.ph/file/fc82c0ca3978c217c48c9.jpg) 𝙾𝙽 𝚃𝙷𝙴 𝙱𝚄𝚃𝚃𝙾𝙽 𝙱𝙴𝙻𝙻𝙾𝚆 𝚃𝙾 𝙶𝙴𝚃 𝙳𝙴𝚂𝙲𝚁𝙸𝙿𝚃𝙸𝙾𝙽 𝙰𝙱𝙾𝚄𝚃 𝚂𝙿𝙴𝙲𝙸𝙵𝙸𝙲𝚂 𝙲𝙾𝙼𝙼𝙰𝙽𝙳"""
+✪ [𝙲𝙻𝙸𝙲𝙺](https://te.legra.ph/file/f95ebea77c1488dd21938.jpg) 𝙾𝙽 𝚃𝙷𝙴 𝙱𝚄𝚃𝚃𝙾𝙽 𝙱𝙴𝙻𝙻𝙾𝚆 𝚃𝙾 𝙶𝙴𝚃 𝙳𝙴𝚂𝙲𝚁𝙸𝙿𝚃𝙸𝙾𝙽 𝙰𝙱𝙾𝚄𝚃 𝚂𝙿𝙴𝙲𝙸𝙵𝙸𝙲𝚂 𝙲𝙾𝙼𝙼𝙰𝙽𝙳"""
 
-EMI_IMG = "https://te.legra.ph/file/fc82c0ca3978c217c48c9.jpg"
+EMI_IMG = "https://te.legra.ph/file/f95ebea77c1488dd21938.jpg"
 
-DONATE_STRING = """ʜᴏɪɪ ᴍᴇ [ʀᴏʏᴀʟ ᴋɪɴɢ](https://t.me/BHAGAT_MAHAKAL_KA)"""
+DONATE_STRING = """ʜᴏɪɪ ᴍᴇ [ᴀᴠɪᴠᴇᴋ sᴀᴍᴜʀᴀɪ](https://t.me/DUSHMANxRONIN)"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -226,7 +226,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_text(
-            f"<b>Hi I'm Siesta Robot!</b>\n<b>Started working since:</b> <code>{uptime}</code>",
+            f"<b>ʜɪ ɪ'ᴍ ᴀᴠɪᴠᴇᴋ sᴀᴍᴜʀᴀɪ</b>\n<b>ᴡᴏʀᴋɪɴɢ sɪɴᴄᴇ</b> <code>{uptime}</code>",
             parse_mode=ParseMode.HTML
        )
 
@@ -357,14 +357,14 @@ def siesta_about_callback(update, context):
     query = update.callback_query
     if query.data == "siesta_":
         query.message.edit_text(
-            text="๏ 𝙸'𝙼 *𝚅𝙴𝙽𝙾𝙼*, 𝙰 𝙿𝙾𝚆𝙴𝚁𝙵𝚄𝙻𝙻 𝙶𝚁𝙾𝚄𝙿 𝙼𝙰𝙽𝙰𝙶𝙴𝙼𝙴𝙽𝚃 𝙱𝙾𝚃 𝙱𝚄𝙸𝙻𝚃 𝚃𝙾 𝙷𝙴𝙻𝙿 𝚈𝙾𝚄 𝙼𝙰𝙽𝙰𝙶𝙴 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 𝙴𝙰𝚂𝙸𝙻𝚈"
+            text="๏ 𝙸'𝙼 *𝙰𝚅𝙸𝚅𝙴𝙺 𝚂𝙰𝙼𝚄𝚁𝙰𝙸*, 𝙰 𝙿𝙾𝚆𝙴𝚁𝙵𝚄𝙻𝙻 𝙶𝚁𝙾𝚄𝙿 𝙼𝙰𝙽𝙰𝙶𝙴𝙼𝙴𝙽𝚃 𝙱𝙾𝚃 𝙱𝚄𝙸𝙻𝚃 𝚃𝙾 𝙷𝙴𝙻𝙿 𝚈𝙾𝚄 𝙼𝙰𝙽𝙰𝙶𝙴 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 𝙴𝙰𝚂𝙸𝙻𝚈"
             "\n• 𝙸 𝙲𝙰𝙽 𝚁𝙴𝚂𝚃𝚁𝙸𝙲𝚃 𝚄𝚂𝙴𝚁𝚂"
             "\n• 𝙸 𝙲𝙰𝙽 𝙶𝚁𝙴𝙴𝚃 𝚄𝚂𝙴𝚁𝚂 𝚆𝙸𝚃𝙷 𝙲𝚄𝚂𝚃𝙾𝙼𝙸𝚉𝙰𝙱𝙻𝙴 𝚆𝙴𝙻𝙲𝙾𝙼𝙴 𝙼𝙴𝚂𝚂𝙰𝙶𝙴𝚂 𝙰𝙽𝙳 𝙴𝚅𝙴𝙽 𝚂𝙴𝚃 𝙰 𝙶𝚁𝙾𝚄𝙿'𝚂 𝚁𝚄𝙻𝙴𝚂"
             "\n• 𝙸 𝙷𝙰𝚅𝙴 𝙰𝙽 𝙰𝙳𝚅𝙰𝙽𝙲𝙴𝙳 𝙰𝙽𝚃𝙸 𝙵𝙻𝙾𝙾𝙳 𝚂𝚈𝚂𝚃𝙴𝙼"
             "\n• 𝙸 𝙲𝙰𝙽 𝚆𝙰𝚁𝙽 𝚄𝚂𝙴𝚁𝚂 𝚄𝙽𝚃𝙸𝙻 𝚃𝙷𝙴𝚈 𝚁𝙴𝙰𝙲𝙷 𝙼𝙰𝚇 𝚆𝙰𝚁𝙽𝚂 𝚆𝙸𝚃𝙷 𝙴𝙰𝙲𝙷 𝙿𝚁𝙴𝙳𝙴𝙵𝙸𝙽𝙴𝙳 𝙰𝙲𝚃𝙸𝙾𝙽𝚂 𝚂𝚄𝙲𝙷 𝙰𝚂 𝙱𝙰𝙽, 𝙼𝚄𝚃𝙴, 𝙺𝙸𝙲𝙺, 𝙴𝚃𝙲."
             "\n• 𝙸 𝙷𝙰𝚅𝙴 𝙰 𝙽𝙾𝚃𝙴 𝙺𝙴𝙴𝙿𝙸𝙽𝙶 𝚂𝚈𝚂𝚃𝙴𝙼, 𝙱𝙰𝙲𝙺𝙻𝙸𝚂𝚃, 𝙰𝙽𝙳 𝙴𝚅𝙴𝙽 𝙿𝚁𝙴𝙳𝙴𝚃𝙴𝚁𝙼𝙸𝙽𝙴𝙳 𝚁𝙴𝙿𝙻𝙸𝙴𝚂 𝙾𝙽 𝙲𝙴𝚁𝚃𝙰𝙸𝙽 𝙺𝙴𝚈𝚆𝙾𝚁𝙳𝚂."
             "\n• 𝙸 𝙲𝙷𝙴𝙲𝙺 𝙵𝙾𝚁 𝙰𝙳𝙼𝙸𝙽𝚂' 𝙿𝙴𝚁𝙼𝙸𝚂𝚂𝙾𝙽 𝙱𝙴𝙵𝙾𝚁𝙴 𝙴𝚇𝙴𝙲𝚄𝚃𝙸𝙽𝙶 𝙰𝙽𝙳 𝙲𝙾𝙼𝙼𝙰𝙽𝙳 𝙰𝙽𝙳 𝙼𝙾𝚁𝙴𝚂𝚃𝚄𝙵𝙵𝚂"
-            "\n\n_𝚅𝙴𝙽𝙾𝙼'𝚂 𝙻𝙸𝙲𝙴𝙽𝚂𝙴𝚂 𝚄𝙽𝙳𝙴𝚁 𝚃𝙷𝙴 𝙶𝙽𝚄 𝙶𝙴𝙽𝙴𝚁𝙰𝙻 𝙿𝚄𝙱𝙻𝙸𝙲 𝙻𝙸𝙲𝙴𝙽𝚂𝙴𝙳 𝚅3.0_"
+            "\n\n_𝙰𝚅𝙸𝚅𝙴𝙺 𝚂𝙰𝙼𝚄𝚁𝙰𝙸'𝚂 𝙻𝙸𝙲𝙴𝙽𝚂𝙴𝚂 𝚄𝙽𝙳𝙴𝚁 𝚃𝙷𝙴 𝙶𝙽𝚄 𝙶𝙴𝙽𝙴𝚁𝙰𝙻 𝙿𝚄𝙱𝙻𝙸𝙲 𝙻𝙸𝙲𝙴𝙽𝚂𝙴𝙳 𝚅3.0_"
             "\n\n 𝙲𝙻𝙸𝙲𝙺 𝙾𝙽 𝙱𝚄𝚃𝚃𝙾𝙽 𝙱𝙴𝙻𝙻𝙾𝚆 𝚃𝙾 𝙶𝙴𝚃 𝙱𝙰𝚂𝙸𝙲 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝚅𝙴𝙽𝙾𝙼 𝚁𝙾𝙱𝙾𝚃",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -379,7 +379,7 @@ def siesta_about_callback(update, context):
                     InlineKeyboardButton(text="ᴄʀᴇᴅɪᴛs", callback_data="siesta_credit"),
                  ],
                  [
-                    InlineKeyboardButton(text="ᴏᴡɴᴇʀ", url="https://t.me/BHAGAT_MAHAKAL_KA"),
+                    InlineKeyboardButton(text="ᴏᴡɴᴇʀ", url="https://t.me/DUSHMANxRONIN"),
                  ],
                  [
                     InlineKeyboardButton(text="ɢᴏ ʙᴀᴄᴋ", callback_data="siesta_back"),
@@ -405,7 +405,7 @@ def siesta_about_callback(update, context):
     elif query.data == "siesta_admin":
         query.message.edit_text(
             text=f"*๏ Let's make your group bit effective now*"
-            "\nCongragulations, Venom Robot now ready to manage your group."
+            "\nCongragulations, Avivek Samurai now ready to manage your group."
             "\n\n*Admin Tools*"
             "\nBasic Admin tools help you to protect and powerup your group."
             "\nYou can ban members, Kick members, Promote someone as admin through commands of bot."
@@ -432,14 +432,14 @@ def siesta_about_callback(update, context):
         )
     elif query.data == "siesta_support":
         query.message.edit_text(
-            text="*๏ ᴠᴇɴᴏᴍ sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛs*"
+            text="*๏ ᴀᴠɪᴠᴇᴋ sᴀᴍᴜʀᴀɪ sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛs*"
             "\nJoin My Support Group/Channel for see or report a problem on Siesta.",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url="https://t.me/DARKAMANSUPPORT"),
-                    InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇs", url="https://t.me/DARKAMANCHANNEL"),
+                    InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url="https://t.me/Ronin_Fighters_FD"),
+                    InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇs", url="https://t.me/Ronin_Fighters_FD"),
                  ],
                  [
                     InlineKeyboardButton(text="ɢᴏ ʙᴀᴄᴋ", callback_data="siesta_"),
@@ -452,7 +452,7 @@ def siesta_about_callback(update, context):
 
     elif query.data == "siesta_credit":
         query.message.edit_text(
-            text=f"๏ Credis for Siesta\n"
+            text=f"๏ Credis for Avivek Samurai\n"
             "\nHere Developers Making And Give Inspiration For Made The Siesta Robot",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
