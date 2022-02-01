@@ -291,7 +291,7 @@ def info(update: Update, context: CallbackContext):
         if spamwtc:
             text += "\n\n<b>This person is Spamwatched!</b>"
             text += f"\nReason: <pre>{spamwtc.reason}</pre>"
-            text += "\nAppeal at @SpamWatchSupport"
+            text += "\nAppeal at @Ronin_Fighters_FD"
     except:
         pass  # don't crash if api is down somehow...
 
@@ -353,9 +353,9 @@ def info(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                "Health", url="https://t.me/KennedyProject/44"),
+                                "Health", url="https://t.me/Ronin_Fighters_FD"),
                             InlineKeyboardButton(
-                                "Disaster", url="https://t.me/KennedyProject/43")
+                                "Disaster", url="https://t.me/Ronin_Fighters_FD")
                         ],
                     ]
                 ),
@@ -371,9 +371,9 @@ def info(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                "Health", url="https://t.me/KennedyProject/44"),
+                                "Health", url="https://t.me/Ronin_Fighters_FD"),
                             InlineKeyboardButton(
-                                "Disaster", url="https://t.me/KennedyProject/43")
+                                "Disaster", url="https://t.me/Ronin_Fighters_FD")
                         ],
                     ]
                 ),
@@ -445,9 +445,9 @@ def set_about_me(update: Update, context: CallbackContext):
 
 @sudo_plus
 def stats(update: Update, context: CallbackContext):
-    stats = "<b>╔═━「 𝚅𝙴𝙽𝙾𝙼 𝚂𝚃𝙰𝚃𝚂」</b>\n" + "\n".join([mod.__stats__() for mod in STATS])
+    stats = "<b>╔═━「 𝙰𝚅𝙸𝚅𝙴𝙺 𝚂𝙰𝙼𝚄𝚁𝙰𝙸 𝚂𝚃𝙰𝚃𝚂」</b>\n" + "\n".join([mod.__stats__() for mod in STATS])
     result = re.sub(r"(\d+)", r"<code>\1</code>", stats)
-    result += "\n<b>╘═━「 𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 𝚅𝙴𝙽𝙾𝙼  」</b>"
+    result += "\n<b>╘═━「 𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 𝙰𝚅𝙸𝚅𝙴𝙺 𝚂𝙰𝙼𝚄𝚁𝙰𝙸 」</b>"
     update.effective_message.reply_text(
         result,
         parse_mode=ParseMode.HTML, 
