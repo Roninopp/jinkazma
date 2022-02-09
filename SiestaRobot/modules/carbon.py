@@ -24,30 +24,3 @@ async def carbon_func(_, message):
     carbon.close()
 
 
-MEMEK = "https://telegra.ph/file/31c56fb53884915fec558.jpg"
-
-@pbot.on_message(filters.command("repo"))
-async def repo(_, message):
-    await message.reply_photo(
-        photo=MEMEK,
-        caption=f"""✨ **Hey I'm Siesta Robot** ✨ 
-
-**Owner repo : [Vain](https://t.me/saint_foire)**
-**Python Version :** `{y()}`
-**Library Version :** `{o}`
-**Telethon Version :** `{s}`
-**Pyrogram Version :** `{z}`
-
-**Create your own with click button bellow.**
-""",
-        reply_markup=InlineKeyboardMarkup(
-            [
-                [
-                    InlineKeyboardButton(
-                        "Repo", url="https://github.com/shiinobu/SiestaRobot"), 
-                    InlineKeyboardButton(
-                        "Support", url="https://t.me/machinaxsupport")
-                ]
-            ]
-        )
-    )
