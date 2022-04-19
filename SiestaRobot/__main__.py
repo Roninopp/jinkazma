@@ -82,7 +82,7 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 *𝙷𝙴𝙻𝙻𝙾  {} !*
-✪ 𝙸'𝙼 𝙰𝙽 𝙰𝙽𝙸𝙼𝙴 𝚃𝙷𝙴𝙼𝙴 𝙼𝙰𝙽𝙰𝙶𝙴𝙼𝙴𝙽𝚃 𝙱𝙾𝚃 [✨](https://te.legra.ph/file/f95ebea77c1488dd21938.jpg)
+✪ 𝙸'𝙼 𝙰𝙽 𝙰𝙽𝙸𝙼𝙴 𝚃𝙷𝙴𝙼𝙴 𝙼𝙰𝙽𝙰𝙶𝙴𝙼𝙴𝙽𝚃 𝙱𝙾𝚃 [✨](https://te.legra.ph/file/1b44fb4780b4dd089b069.jpg)
 ────────────────────────
 × *𝚄𝙿𝚃𝙸𝙼𝙴 ✘* `{}`
 × `{}` *𝚄𝚂𝙴𝚁𝚂, 𝙰𝙲𝚁𝙾𝚂𝚂* `{}` *𝙲𝙷𝙰𝚃𝚂*
@@ -92,7 +92,7 @@ PM_START_TEXT = """
 
 buttons = [
     [
-        InlineKeyboardButton(text="ᴀʙᴏᴜᴛ ᴀᴠɪᴠᴇᴋ sᴀᴍᴜʀᴀɪ", callback_data="siesta_"),
+        InlineKeyboardButton(text="ᴀʙᴏᴜᴛ Jin kazma", callback_data="siesta_"),
     ],
     [
         InlineKeyboardButton(text="ʜᴇʟᴘ", callback_data="help_back"),
@@ -102,15 +102,15 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="ᴀᴅᴅ ᴀᴠɪᴠᴇᴋ sᴀᴍᴜʀᴀɪ", url="t.me/FANTASTICFIGHTERBOT?startgroup=new"),
+            text="ᴀᴅᴅ ᴀᴠɪᴠᴇᴋ sᴀᴍᴜʀᴀɪ", url="t.me/JinKazamaXBot?startgroup=new"),
     ],
 ]
 
 
 HELP_STRINGS = """
-✪ [𝙲𝙻𝙸𝙲𝙺](https://te.legra.ph/file/f95ebea77c1488dd21938.jpg) 𝙾𝙽 𝚃𝙷𝙴 𝙱𝚄𝚃𝚃𝙾𝙽 𝙱𝙴𝙻𝙻𝙾𝚆 𝚃𝙾 𝙶𝙴𝚃 𝙳𝙴𝚂𝙲𝚁𝙸𝙿𝚃𝙸𝙾𝙽 𝙰𝙱𝙾𝚄𝚃 𝚂𝙿𝙴𝙲𝙸𝙵𝙸𝙲𝚂 𝙲𝙾𝙼𝙼𝙰𝙽𝙳"""
+✪ [𝙲𝙻𝙸𝙲𝙺](https://te.legra.ph/file/1b44fb4780b4dd089b069.jpg) 𝙾𝙽 𝚃𝙷𝙴 𝙱𝚄𝚃𝚃𝙾𝙽 𝙱𝙴𝙻𝙻𝙾𝚆 𝚃𝙾 𝙶𝙴𝚃 𝙳𝙴𝚂𝙲𝚁𝙸𝙿𝚃𝙸𝙾𝙽 𝙰𝙱𝙾𝚄𝚃 𝚂𝙿𝙴𝙲𝙸𝙵𝙸𝙲𝚂 𝙲𝙾𝙼𝙼𝙰𝙽𝙳"""
 
-EMI_IMG = "https://te.legra.ph/file/f95ebea77c1488dd21938.jpg"
+EMI_IMG = "https://te.legra.ph/file/1b44fb4780b4dd089b069.jpg"
 
 DONATE_STRING = """ʜᴏɪɪ ᴍᴇ [ᴀᴠɪᴠᴇᴋ sᴀᴍᴜʀᴀɪ](https://t.me/DUSHMANxRONIN)"""
 
@@ -357,7 +357,7 @@ def siesta_about_callback(update, context):
     query = update.callback_query
     if query.data == "siesta_":
         query.message.edit_text(
-            text="๏ 𝙸'𝙼 *𝙰𝚅𝙸𝚅𝙴𝙺 𝚂𝙰𝙼𝚄𝚁𝙰𝙸*, 𝙰 𝙿𝙾𝚆𝙴𝚁𝙵𝚄𝙻𝙻 𝙶𝚁𝙾𝚄𝙿 𝙼𝙰𝙽𝙰𝙶𝙴𝙼𝙴𝙽𝚃 𝙱𝙾𝚃 𝙱𝚄𝙸𝙻𝚃 𝚃𝙾 𝙷𝙴𝙻𝙿 𝚈𝙾𝚄 𝙼𝙰𝙽𝙰𝙶𝙴 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 𝙴𝙰𝚂𝙸𝙻𝚈"
+            text="๏ 𝙸'𝙼 *Jin kazma*, 𝙰 𝙿𝙾𝚆𝙴𝚁𝙵𝚄𝙻𝙻 𝙶𝚁𝙾𝚄𝙿 𝙼𝙰𝙽𝙰𝙶𝙴𝙼𝙴𝙽𝚃 𝙱𝙾𝚃 𝙱𝚄𝙸𝙻𝚃 𝚃𝙾 𝙷𝙴𝙻𝙿 𝚈𝙾𝚄 𝙼𝙰𝙽𝙰𝙶𝙴 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 𝙴𝙰𝚂𝙸𝙻𝚈"
             "\n• 𝙸 𝙲𝙰𝙽 𝚁𝙴𝚂𝚃𝚁𝙸𝙲𝚃 𝚄𝚂𝙴𝚁𝚂"
             "\n• 𝙸 𝙲𝙰𝙽 𝙶𝚁𝙴𝙴𝚃 𝚄𝚂𝙴𝚁𝚂 𝚆𝙸𝚃𝙷 𝙲𝚄𝚂𝚃𝙾𝙼𝙸𝚉𝙰𝙱𝙻𝙴 𝚆𝙴𝙻𝙲𝙾𝙼𝙴 𝙼𝙴𝚂𝚂𝙰𝙶𝙴𝚂 𝙰𝙽𝙳 𝙴𝚅𝙴𝙽 𝚂𝙴𝚃 𝙰 𝙶𝚁𝙾𝚄𝙿'𝚂 𝚁𝚄𝙻𝙴𝚂"
             "\n• 𝙸 𝙷𝙰𝚅𝙴 𝙰𝙽 𝙰𝙳𝚅𝙰𝙽𝙲𝙴𝙳 𝙰𝙽𝚃𝙸 𝙵𝙻𝙾𝙾𝙳 𝚂𝚈𝚂𝚃𝙴𝙼"
@@ -432,14 +432,14 @@ def siesta_about_callback(update, context):
         )
     elif query.data == "siesta_support":
         query.message.edit_text(
-            text="*๏ ᴀᴠɪᴠᴇᴋ sᴀᴍᴜʀᴀɪ sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛs*"
-            "\nJoin My Support Group/Channel for see or report a problem on Siesta.",
+            text="*๏ jin kazma sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛs*"
+            "\nJoin My Support Group/Channel for see or report a problem on Jin.",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url="https://t.me/Ronin_Fighters_FD"),
-                    InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇs", url="https://t.me/Ronin_Fighters_FD"),
+                    InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url="https://t.me/JinKazama_support"),
+                    InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇs", url="https://t.me/RoninXJin_updates"),
                  ],
                  [
                     InlineKeyboardButton(text="ɢᴏ ʙᴀᴄᴋ", callback_data="siesta_"),
