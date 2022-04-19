@@ -101,8 +101,13 @@ buttons = [
         ),
     ],
     [
+InlineKeyboardButton(
+            text="⚡BROTHER⚡", https://t.me/FANTASTICFIGHTERBOT"),
+        ),
+    ],
+    [
         InlineKeyboardButton(
-            text="ᴀᴅᴅ ᴀᴠɪᴠᴇᴋ sᴀᴍᴜʀᴀɪ", url="t.me/JinKazamaXBot?startgroup=new"),
+            text="ᴀᴅᴅ ＪＩＮ ＫＡＺＭＡ", url="t.me/JinKazamaXBot?startgroup=new"),
     ],
 ]
 
@@ -112,7 +117,7 @@ HELP_STRINGS = """
 
 EMI_IMG = "https://te.legra.ph/file/1b44fb4780b4dd089b069.jpg"
 
-DONATE_STRING = """ʜᴏɪɪ ᴍᴇ [ᴀᴠɪᴠᴇᴋ sᴀᴍᴜʀᴀɪ](https://t.me/DUSHMANxRONIN)"""
+DONATE_STRING = """ʜᴏɪɪ ᴍᴇ [Ｉ ＡＭ ＲＯＮＩＮ](https://t.me/DUSHMANxRONIN)"""
 
 IMPORTED = {}
 MIGRATEABLE = []
